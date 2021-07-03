@@ -1,0 +1,13 @@
+.products{
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:450px){
+    .kaplama{
+        position: absolute;
+    }
+    .kapla{
+        max-width: 800px;
+        margin:auto;  
+    }
+}

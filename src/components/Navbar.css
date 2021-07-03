@@ -1,0 +1,59 @@
+.navbarr{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(to left, black,rgb(22, 77, 31),black);
+    color: #fff;
+    font-size: 13px;
+    padding-top:3px;
+}
+.navbarr span ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.navbarr ul li{
+    margin: 4px;
+padding: 4px 5px;
+padding-bottom: 0px;
+}
+.navbarr .logo{
+    font-size: 15px;
+    background:rgb(140, 138, 138);
+    padding-top:0px;
+    margin-top:8px;
+    border-radius: 5px;
+}
+.navbarr ul li:hover{
+    color: rgb(191, 189, 189);
+    cursor: pointer;
+}
+.kucuk{
+    font-size: 11px;
+}
+.kucult{
+    font-size: 10px;
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid white;
+    margin-left: -8px;
+    text-align: center;
+}
+.kucult:focus{
+    outline: none;
+}
+@media screen and (max-width:450px){
+    .navbarr{
+        font-size: 10px;
+    }
+    .kucult{
+        font-size: 7px;
+        background: transparent;
+        border:none;
+        border-bottom: 1px solid white;
+        margin-left: -8px;
+        text-align: center;
+    }   
+    
+}

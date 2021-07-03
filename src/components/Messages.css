@@ -1,0 +1,135 @@
+.messages{
+    margin-bottom: 20px;
+    height: 320px;
+    width:21%;
+    border-radius: 10px;
+    background-color: #F2F3F5;
+    font-size: 12px;
+    border: 1px solid rgb(59, 175, 48);
+    position: absolute;
+    right: 0;
+    position: fixed;
+    bottom:0;
+    right: 20px;
+    overflow: scroll;
+
+}
+.messageshidden{
+    display: none;
+
+}
+.messagebutton button{
+    border-radius: 50%;
+    border: 1px solid transparent;
+    font-size: 30px;
+    background-color: rgb(58, 146, 50);
+    animation-name: message;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    position: relative;
+    bottom: 60px;
+    
+    
+}
+.messagebutton button:focus{
+    outline: none;
+}
+.messagebutton{
+    position: fixed;
+    bottom:0;
+    right: 20px;
+}
+
+.messagesend{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+}
+.messagesend input{
+    border-radius: 5px 0px 0px 5px;
+    text-align: center;
+    border: 1px solid rgb(50, 186, 32);
+}
+.messagesend button {
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid rgb(50, 186, 32);
+    background-color: rgb(50, 186, 32);
+}
+
+
+@keyframes message{
+    0%{transform: scale(1,1);}
+    25%{transform: scale(1.3,1.3);}
+    50%{transform: scale(1,1);}
+    75%{transform: scale(1.3,1.3);}
+    100%{transform: scale(1,1);}
+}
+.genel{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-left: auto;
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+.messages ul{
+    list-style: none;
+    
+}
+.messages .sagmessage{
+    border: 1px solid rgb(54, 197, 59);
+    max-width: 93px;
+    text-align: center;
+    padding: 6px 5px;
+    border-radius: 5px 5px 0px 5px;
+    margin-top: 12px;
+    background-color: rgb(192, 228, 184);
+    color: rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: 8px;
+    font-size: 10px;
+}
+.messages .solmessage{
+    border: 1px solid rgb(54, 197, 59);
+    max-width: 93px;
+    text-align: center;
+    padding: 6px 5px;
+    border-radius: 5px 5px 0px 5px;
+    margin-top: 12px;
+    background-color: rgb(192, 228, 184);
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    margin-left: -26px;
+}
+@media screen and (max-width:450px){
+    .messages{
+        margin-bottom: 20px;
+        height: 320px;
+        width:55%;
+        border-radius: 10px;
+        background-color: #F2F3F5;
+        font-size: 12px;
+        border: 1px solid rgb(59, 175, 48);
+        position: absolute;
+        right: 0;
+    }
+    .messagebutton button{
+        border-radius: 50%;
+        border: 1px solid transparent;
+        font-size: 20px;
+        background-color: rgb(84, 196, 73);
+        animation-name: message;
+        animation-delay: 1s;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        position: relative;
+        bottom: 40px;
+        
+    }
+    
+}

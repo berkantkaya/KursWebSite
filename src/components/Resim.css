@@ -1,0 +1,26 @@
+.resim .resresim{
+    max-width: 50%;
+    display: inline-block;
+}
+.resim span{
+    width: 700px;
+    margin-left: auto;
+}
+.resim{
+    max-width: 85%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.resim p{
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media screen and (max-width:450px){
+    .resim h4{
+        font-size: 17px;
+    }
+    .resim p{
+        font-size: 11px;
+    }
+}
